@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ConstraintLayout"
+    android:layout_width="match_parent"
+    android:background="#000000"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/bu5"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="40pt"
+        android:layout_height="40pt"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="4dp"
+        android:background="@color/colorAccent"
+        android:onClick="buClick"
+        android:textColor="#000000"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toTopOf="@+id/bu8"
+        app:layout_constraintEnd_toStartOf="@+id/bu6" />
+
+    <Button
+        android:id="@+id/bu7"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="40pt"
+        android:layout_height="40pt"
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginBottom="176dp"
+        android:background="@color/colorAccent"
+        android:onClick="buClick"
+        android:textColor="#000000"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/bu8"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/bu8"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="40pt"
+        android:layout_height="40pt"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="176dp"
+        android:background="@color/colorAccent"
+        android:onClick="buClick"
+        android:textColor="#000000"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/bu9" />
+
+    <Button
+        android:id="@+id/bu1"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="40pt"
+        android:layout_height="40pt"
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginBottom="2dp"
+        android:background="@color/colorAccent"
+        android:onClick="buClick"
+        android:textColor="#000000"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toTopOf="@+id/bu4"
+        app:layout_constraintEnd_toStartOf="@+id/bu2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.99" />
+
+    <Button
+        android:id="@+id/bu2"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="40pt"
+        android:layout_height="40pt"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="4dp"
+        android:textSize="40sp"
+        android:layout_marginBottom="2dp"
+        android:background="@color/colorAccent"
+        android:onClick="buClick"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/bu5"
+        app:layout_constraintEnd_toStartOf="@+id/bu3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.99" />
+
+    <Button
+        android:id="@+id/bu6"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="40pt"
+        android:layout_height="40pt"
+        android:layout_marginEnd="64dp"
+        android:layout_marginRight="64dp"
+        android:layout_marginBottom="4dp"
+        android:background="@color/colorAccent"
+        android:onClick="buClick"
+        android:textColor="#000000"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toTopOf="@+id/bu9"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/bu4"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="40pt"
+        android:layout_height="40pt"
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginBottom="4dp"
+        android:background="@color/colorAccent"
+        android:onClick="buClick"
+        android:textColor="#000000"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toTopOf="@+id/bu7"
+        app:layout_constraintEnd_toStartOf="@+id/bu5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/bu9"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="40pt"
+        android:layout_height="40pt"
+        android:layout_marginEnd="64dp"
+        android:layout_marginRight="64dp"
+        android:layout_marginBottom="176dp"
+        android:background="@color/colorAccent"
+        android:onClick="buClick"
+        android:textColor="#000000"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/bu3"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="40pt"
+        android:layout_height="40pt"
+        android:layout_marginEnd="64dp"
+        android:layout_marginRight="64dp"
+        android:layout_marginBottom="2dp"
+        android:background="@color/colorAccent"
+        android:onClick="buClick"
+        android:textColor="#000000"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toTopOf="@+id/bu6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.99" />
+
+    <EditText
+        android:id="@+id/nameP1"
+        android:layout_width="221dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="44dp"
+        android:background="@android:color/holo_orange_light"
+        android:ems="10"
+        android:hint="Player 1 (X)"
+        android:inputType="textPersonName"
+        android:textAllCaps="true"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/nameP2"
+        android:layout_width="224dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/holo_orange_light"
+        android:ems="10"
+        android:hint="Player 2 (O)"
+        android:inputType="textPersonName"
+        android:textAllCaps="true"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nameP1" />
+
+    <Button
+        android:id="@+id/buRes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="80dp"
+        android:onClick="buResGame"
+        android:text="Restart Game"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.897"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:text="X:"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toStartOf="@+id/nameP1"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="O:"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toStartOf="@+id/nameP2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/tvPtsP1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="164dp"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvPtsP2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvPtsP1" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="137dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="164dp"
+        android:text="Pts of player1: "
+        android:textColor="#FFEA00"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toStartOf="@+id/tvPtsP1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="139dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="Pts of player2: "
+        android:textColor="#FFEA00"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toStartOf="@+id/tvPtsP2"
+        app:layout_constraintHorizontal_bias="0.559"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <Button
+        android:id="@+id/buRePts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="80dp"
+        android:onClick="buResetPts"
+        android:text="Reset Points"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/buRes"
+        app:layout_constraintHorizontal_bias="0.525"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
